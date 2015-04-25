@@ -1,0 +1,18 @@
+{
+  "name": "dont-be-illegal",
+  "version": "0.0.1",
+  "description": "An experiment into combining torrent streaming with torrent search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "torrent",
+    "streaming"
+  ],
+  "author": "Sam Morgan",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}

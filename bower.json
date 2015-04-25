@@ -1,0 +1,30 @@
+{
+  "name": "dont-be-illegal",
+  "main": "index.js",
+  "version": "0.0.1",
+  "authors": [
+    "Sam Morgan <s_morgan@me.com>"
+  ],
+  "description": "Experimenting with Node Streaming and Torrent Search",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "streaming",
+    "torrents"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
