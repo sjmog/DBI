@@ -13,4 +13,12 @@ describe("Interface Suite", function() {
 		expect($('#torrent_search')).toExist();
 	});
 
+	it("should have a 'submit search' button", function() {
+		expect($('#torrent_search_submit')).toExist();
+	});
+
+	it("should initially have an empty container for torrents", function() {
+		expect($('#torrent_results')).toExist();
+	});
+
 });

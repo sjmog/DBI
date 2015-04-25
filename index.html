@@ -21,10 +21,15 @@
             
             <h1 class="page-title">Welcome!</h1>
 
-            <form action="/search" method="get">
+            <form action="/search" method="post">
                 <label for="search">Search</label>
                 <input id="torrent_search" type="text" name="search" />
+                <input id="torrent_search_submit" type="submit" value="Submit Search" />
             </form>
+
+            <ul id="torrent_results">
+                
+            </ul>
 
         </div>
 
