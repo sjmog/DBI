@@ -13,6 +13,8 @@
   "author": "Sam Morgan",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.4.1"
+    "bower": "^1.4.1",
+    "grunt": "^0.4.5",
+    "grunt-bower-install": "^1.6.0"
   }
 }
